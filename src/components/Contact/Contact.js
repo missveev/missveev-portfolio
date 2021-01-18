@@ -11,7 +11,7 @@ class Contact extends Component {
             var state = this.props.data.address.state;
             var country = this.props.data.address.country;
             var phone = this.props.data.phone;
-            var message = this.props.data.contactmessage;
+            //var message = this.props.data.contactmessage;
         }
         return (
 
