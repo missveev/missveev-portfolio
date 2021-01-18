@@ -1,0 +1,106 @@
+#resume {
+    background: #a7bec5;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#resume a, #resume a:visited  { color: #131e25; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
+#resume h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#resume h1 span {
+    border-bottom: 3px solid #131e25;
+    padding-bottom: 6px;
+}
+#resume h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
+
+.education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+
+}
+#resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+#resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#resume .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+}
+#resume p {
+    line-height: 20px;
+    color: #24424e;
+    text-align: left;
+    padding-right: 5%;
+
+}
+#resume h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #24424e;
+    margin-bottom: 12px;
+    text-align: left;
+
+}
+#resume h4 {
+    font: 16px/24px 'opensans-regular', sans-serif;
+    color: #24424e;
+    text-align: left;
+    line-height: 20px;
+
+
+}
+.bars {
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+.bars .skills {
+    margin-top: 36px;
+    list-style: none;
+}
+.bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #333;
+    height: 42px;
+    border-radius: 0px;
+}
+.bars li em {
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+}
+.bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 0px;
+}

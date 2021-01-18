@@ -1,0 +1,72 @@
+#about {
+    background: #14252D;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+#about a, #about a:visited  { color: #fff; }
+#about a:hover, #about a:focus { color: #0762f9; }
+
+#about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+#about p {
+    line-height: 30px;
+    color: #ccc;
+
+}
+#about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+    width: 58.33333%;
+    padding-top: 6px;
+}
+#about .main-col { padding-right: 5%; }
+#about .download .button {
+    margin-top: 6px;
+    background: #6997a4;
+}
+#about .download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+}
+#about .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.row .nine {
+    width: 75%;
+}
+.row .three {
+    width: 25%;
+}
+.column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
