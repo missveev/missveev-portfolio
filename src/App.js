@@ -7,9 +7,11 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact"
 import './App.css';
 import Footer from "./components/Footer/Footer";
+import MediaQuery from 'react-responsive'
 
 
 class App extends Component {
+
 
     constructor(props) {
         super(props);
@@ -41,7 +43,12 @@ class App extends Component {
 
     render() {
         return (
+
             <div className="App">
+                <MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>
+                    <MediaQuery minDeviceWidth={1824}>
+                    </MediaQuery>
+                </MediaQuery>
                 <Navigation data={this.state.resumeData.main}/>
                 <About data={this.state.resumeData.main}/>
                 <Resume data={this.state.resumeData.resume}/>

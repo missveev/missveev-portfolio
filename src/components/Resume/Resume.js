@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css';
-
+import '../MediaQuery.css';
 class Resume extends Component {
     getRandomColor() {
         let letters = '0123456789ABCDEF';

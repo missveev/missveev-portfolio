@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
-
+import '../MediaQuery.css';
 class Portfolio extends Component {
     render() {
 

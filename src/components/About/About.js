@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import veev from './veev.jpg';
 import './About.css';
+import '../MediaQuery.css';
 
 class About extends Component {
     render() {

@@ -3,6 +3,7 @@
     "name": "Pamilerin Aribisogan",
     "description": "Hi, I'm Pamilerin, a Full-Stack Web developer and i design webpages using React, HTML5, PHP",
     "bio": "Hi, I'm Pamilerin, a Full-Stack Web developer with expertise in programming languages such as ReactJs, PHP, HTML5, CSS, JAVA... \n Well-organised person, problem solver, independent employee with high attention to details. I deliver high quality designs based on client's specifications. Manage project smoothly smoothly to accomplish customer's objectives. Background includes graphics designs and performance optimization.",
+
     "contactmessage": "Get In Touch With Me",
     "email": "vivianpamilerin@gmail.com",
     "phone": "+2348142467959",
@@ -17,6 +18,7 @@
     },
     "website": "http://www.missveev.com",
     "resumedownload": "http://www.missveev.com",
+
     "socials":
     [
       {
@@ -45,14 +47,15 @@
         "school": "Eastern Mediterranean University",
         "degree": "Bachelors in Information Technology",
         "graduated": "July 2019",
-        "description": "Followed my passion in a core of prototyping and cloud computing classes.\nExcelled in user experience and user interfaces. Also, developed a Complaint Management System." }
+        "description": "Followed my passion in a core of prototyping and cloud computing classes.\nExcelled in user experience and user interfaces. Also, developed a Complaint Management System."
+      }
       ],
     "work": [
       {
         "company": "MAG Communications",
         "title": "IT Consultant",
         "years": "January 2020 - Present",
-        "description":"I analyse and evaluate the company's IT infrastructure,understanding a client's business needs and designing and implementing a technology solution.  "
+        "description":"I analyse and evaluate the company's IT infrastructure,understanding a client's business needs and designing and implementing a technology solution. "
       },
       {
         "company": "Oyo State House of Assembly",
@@ -105,7 +108,7 @@
       {
         "title": "Complaint Management System",
         "category": "A school project to create a complaint system for a department",
-        "image": "complaint.png",
+        "image": "Complaint.png",
         "url": ""
       },
       {

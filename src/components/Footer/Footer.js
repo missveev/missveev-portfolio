@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import '../MediaQuery.css';
 class Footer extends Component {
     render() {
         return (

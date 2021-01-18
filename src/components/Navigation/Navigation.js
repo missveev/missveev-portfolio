@@ -1,5 +1,6 @@
 import React, {Component}  from 'react';
 import './Navigation.css';
+import '../MediaQuery.css';
 
 class Navigation extends Component {
     render() {
