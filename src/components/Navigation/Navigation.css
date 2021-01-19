@@ -18,6 +18,45 @@ header {
     background-color: #6694a1;
     max-width: initial;
 }
+eader:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+header .socials {
+    margin:14px 0;
+    padding:0;
+    font-size: 30px;
+    display: inline-block;
+}
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.25;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 180px auto 16px auto;
+}
+header .banner-text h3 {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #ddd;
+    margin: 0 auto;
+    width: 75%;
+}
+header .banner-text h3 span,
+header .banner-text h3 a {
+    color: #fff;
+}
 .scrolled{
     position: fixed;
     top: 0;
