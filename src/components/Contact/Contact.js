@@ -12,13 +12,17 @@ class Contact extends Component {
             var state = this.props.data.address.state;
             var country = this.props.data.address.country;
             var phone = this.props.data.phone;
-            //var message = this.props.data.contactmessage;
+            var message = this.props.data.contactmessage;
         }
         return (
 
             <section id="contact">
                 <div className="row">
+                    <div className="message">
+                        <h3>{message}</h3>
+                    </div>
                     <div className="eight columns">
+
                         <form action="" method="post" id="contactForm" name="contactForm">
                             <fieldset>
 
@@ -49,19 +53,17 @@ class Contact extends Component {
                         </form>
                     </div>
 
-
-                    <aside className="four columns footer-widgets">
-                        <div className="widget widget_contact">
+                        <div className="address">
 
                             <h4>Address and Phone</h4>
-                            <p className="address">
+                            <p >
                                 {name}<br/>
                                 {street}<br/>
                                 {city} {state}, {country}<br/>
                                 <span>{phone}</span>
                             </p>
                         </div>
-                    </aside>
+
 
 
                 </div>

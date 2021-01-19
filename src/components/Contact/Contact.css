@@ -6,7 +6,14 @@
     text-align: left;
 }
 
-
+#contact .message{
+    text-align: center;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #EBEEEE;
+    margin-bottom: 16px;
+}
  article, aside, details, figcaption, figure, footer, hgroup, menu, section {
      display: block;
  }
@@ -165,4 +172,9 @@ section {
 #contact span.required {
     color: #3a5e67;
     font-size: 13px;
+}
+#contact .address{
+    line-height: 1.5rem;
+    font: 15px/24px 'opensans-regular', sans-serif;
+    padding: 0px 30px;
 }
