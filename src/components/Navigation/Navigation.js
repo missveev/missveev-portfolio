@@ -36,16 +36,12 @@ class Navigation extends Component {
                             <hr/>
                             <div className="social">
                                 <a className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3"
-                                   href="https://github.com/missveev">Projects</a> &emsp;
+                                   href={project}>Projects</a> &emsp;
                                 <a className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3"
-                                   href="https://github.com/missveev">Github</a>
+                                   href={github}>Github</a>
                             </div>
                         </div>
                     </div>
-
-                    <p className="scrolldown">
-                        <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-                    </p>
             </header>
         );
     }
