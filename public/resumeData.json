@@ -41,7 +41,7 @@
         "school": "Eastern Mediterranean University",
         "degree": "Masters in Computer Engineering",
         "graduated": "July 2019",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad fugit ipsa ipsam iure laudantium nemo nihil odio praesentiumquae saepe sunt suscipit voluptatem!"
+        "description": "My thesis project was to develop a course and classroom scheduling system for my department, which a bit exciting."
       },
       {
         "school": "Eastern Mediterranean University",
@@ -61,23 +61,23 @@
         "company": "Oyo State House of Assembly",
         "title": "Graduate Trainee",
         "years": "January 2020 - November 2020",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda tque culpa ea esse explicabo fugit ipsa ipsam iure laudantium nemo nihil odio praesentiumquae saepe sunt suscipit voluptatem!"
+        "description":"Worked with a team to oversee the functionality of the institute website, evaluate the website performances, update website content."
       }
 
     ],
-    "skillmessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "skillmessage": "Here are some of the skills i have acquired over the years .",
     "skills": [
       {
         "name": "JAVA",
         "level": "50%"
       },
       {
-        "name": "NodeJs",
-        "level": "55%"
+        "name": "UI/UX Design",
+        "level": "65%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "60%"
       },
       {
         "name": "CSS",
@@ -88,8 +88,8 @@
         "level": "80%"
       },
       {
-        "name": "Swift",
-        "level": "50%"
+        "name": "SQL",
+        "level": "80%"
       },
       {
         "name": "MongoDB",
@@ -103,7 +103,7 @@
         "title": "Resume Website",
         "category": "A react based resume website",
         "image": "veev.png",
-        "url": ""
+        "url": "https://missveev-portfolio.vercel.app"
       },
       {
         "title": "Complaint Management System",
@@ -112,10 +112,10 @@
         "url": ""
       },
       {
-        "title": "Modern African Kitchen",
-        "category": "Website I built for a restaurant I like",
-        "image": "visionboard.jpg",
-        "url": ""
+        "title": "STALEG MALL",
+        "category": "An Ecommerce website created for one of my favorite mall to shop in my city",
+        "image": "stalegmall.png",
+        "url": "http://msveev-commerce.herokuapp.com"
       },
       {
         "title": "Timetable Scheduling System",
